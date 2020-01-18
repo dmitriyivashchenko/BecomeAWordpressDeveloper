@@ -7,3 +7,8 @@ Version: 0.0.1
 body{
     background-color: #DDD;
 }
+
+.integrated_func{
+    border: 1px solid gray;
+    background-color: #D7D7D7;
+}
