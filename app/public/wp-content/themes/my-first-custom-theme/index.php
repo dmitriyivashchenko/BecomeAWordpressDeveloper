@@ -15,11 +15,24 @@
 
 <?php
 
+ #Lesson 3.2 (functions)
     function greet($name, $color) {
         echo "<p>Hi, my name is $name and my favorite color is $color.</p>";
     } 
-
     greet("Dmitry", "black");
 
+
+#Lesson 3.3 (arrays + loop while)
+    $namesExample = array('Dmitry', 'John', 'Alex', 'Bred', 'Peter', 'Gavin', 'Richard');
+
+    $count = 0;
+    while($count < count($namesExample)) {
+        echo "<li>$namesExample[$count]</li>";
+        $count++;
+    }
+
+
 ?>
+
+
 
