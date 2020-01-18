@@ -1,3 +1,18 @@
+<link rel="stylesheet" href="<?php bloginfo('template_url')?>/style.css">
+
+
+<h2><?php   bloginfo('name');?></h2>
+<h3>Integrated functions that I was learned:</h3>
+<div class="integrated_func">
+    <h4>bloginfo('')</h4>
+    <p>Arguments:</p>
+    <ul>
+        <li>name - show the blog`s name</li>
+        <li>description - show the blog`s desckription</li>
+        <li>temlate_url - show the full url where this theme placed</li>
+    </ul>
+</div>
+
 <?php
 
     function greet($name, $color) {
@@ -8,6 +23,3 @@
 
 ?>
 
-<h1><?php  bloginfo('name');?></h1>
-<h2><?php  bloginfo('description');?></h2>
-<p>Test git</p>
