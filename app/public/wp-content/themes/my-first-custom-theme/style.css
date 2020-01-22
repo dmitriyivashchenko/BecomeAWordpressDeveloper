@@ -7,6 +7,7 @@ Version: 0.0.1
 body{
     background-color: #DDD;
     position: relative;
+    margin: 0;
 }
 
 .intro{
@@ -30,4 +31,15 @@ body{
 
 .l3_1{
     float: none;
+}
+
+.footer{
+    position: absolute;
+    bottom: -16px;
+    box-shadow: 0px -4px 17px 0px rgba(0,0,0,0.2);
+    width: 100%;
+}
+
+.footer p{
+    text-align: center;
 }
