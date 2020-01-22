@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="<?php bloginfo('template_url')?>/style.css">
+<?php get_header(); ?>
 
 <?php
     while(have_posts()) {
@@ -7,3 +7,5 @@
             <?php the_content(); 
     }            
 ?>
+
+<?php get_footer(); ?>

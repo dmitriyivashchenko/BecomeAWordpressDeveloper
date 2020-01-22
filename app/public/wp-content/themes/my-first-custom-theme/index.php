@@ -1,7 +1,5 @@
-<link rel="stylesheet" href="<?php bloginfo('template_url')?>/style.css">
+<?php get_header(); ?>
 
-
-<h2 class='intro'><?php   bloginfo('name');?></h2>
 <h3 class='intro_description'>Integrated functions that I was learned:</h3>
 <div class="integrated_func">
     <h4>bloginfo('')</h4>
@@ -65,3 +63,7 @@
 
 ?>
 
+
+
+
+<?php get_footer(); ?>
