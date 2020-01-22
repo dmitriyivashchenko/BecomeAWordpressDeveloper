@@ -1,15 +1,23 @@
 <link rel="stylesheet" href="<?php bloginfo('template_url')?>/style.css">
 
 
-<h2><?php   bloginfo('name');?></h2>
-<h3>Integrated functions that I was learned:</h3>
+<h2 class='intro'><?php   bloginfo('name');?></h2>
+<h3 class='intro_description'>Integrated functions that I was learned:</h3>
 <div class="integrated_func">
     <h4>bloginfo('')</h4>
     <p>Arguments:</p>
     <ul>
-        <li>name - show the blog`s name</li>
+        <li>name        - show the blog`s name</li>
         <li>description - show the blog`s desckription</li>
         <li>temlate_url - show the full url where this theme placed</li>
+    </ul>
+    <hr>
+    <h4>have_posts()</h4>
+    <p>Relative functoins:</p>
+    <ul>
+        <li>the_title()     - show the title of post</li>
+        <li>the_content()   - show the content of post</li>
+        <li>the_permalink() - show the link of post</li>
     </ul>
 </div>
 
@@ -27,7 +35,7 @@
 
     $count = 0;
     while($count < count($namesExample)) {
-        echo "<li>$namesExample[$count]</li>";
+        echo "<li class='l3_1'>$namesExample[$count]</li>";
         $count++;
     }
 
