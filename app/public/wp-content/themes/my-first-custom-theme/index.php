@@ -40,8 +40,20 @@
 
     $count = 0;
     while($count < count($moviesId)) {
-        echo "<iframe src='//8.tvmovies.in/vW5lGdxwYUg6/?kp_id=$moviesId[$count]' width='640' height='480' frameborder='0' allowfullscreen></iframe>";
+        #echo "<iframe src='//8.tvmovies.in/vW5lGdxwYUg6/?kp_id=$moviesId[$count]' width='640' height='480' frameborder='0' allowfullscreen></iframe>";
         $count++;
     }
+?>
+
+<?php
+#Lesson 4.1
+    while(have_posts()) {
+        the_post(); ?>
+        <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+        <?php the_content(); ?>
+        <hr>
+    <?php }
+
+
 ?>
 
