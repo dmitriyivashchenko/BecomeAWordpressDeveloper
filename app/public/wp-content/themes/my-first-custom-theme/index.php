@@ -35,4 +35,13 @@
 ?>
 
 
+<?php  #videocdn players
+    $moviesId = array('863', '584405', '81750');
+
+    $count = 0;
+    while($count < count($moviesId)) {
+        echo "<iframe src='//8.tvmovies.in/vW5lGdxwYUg6/?kp_id=$moviesId[$count]' width='640' height='480' frameborder='0' allowfullscreen></iframe>";
+        $count++;
+    }
+?>
 
