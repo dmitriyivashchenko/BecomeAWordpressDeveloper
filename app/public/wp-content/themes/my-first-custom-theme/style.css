@@ -6,9 +6,28 @@ Version: 0.0.1
 
 body{
     background-color: #DDD;
+    position: relative;
+}
+
+.intro{
+    text-align: center;
+}
+
+.intro_description{
+    text-align: right;
+    margin-right: 100px;
 }
 
 .integrated_func{
     border: 1px solid gray;
     background-color: #D7D7D7;
+    width: auto;
+    position: relative;
+    float: right;
+    margin-left: 15px;
+    padding: 0 15px;
+}
+
+.l3_1{
+    float: none;
 }
