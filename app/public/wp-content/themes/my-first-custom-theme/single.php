@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="<?php bloginfo('template_url')?>/style.css">
+
 <?php
     while(have_posts()) {
             the_post(); ?>
